@@ -2,7 +2,6 @@
 
 This repository contains code and resources for detecting patronizing and condescending language (PCL) in text. The task was part of the SemEval 2022 competition (Task 4, Subtask 1). The objective is to build a binary classification model that predicts whether a given text contains PCL, surpassing the RoBERTa-base baseline model, which achieved an F1 score of 0.48 on the dev set and 0.49 on the test set.
 
-This project was developed as part of NLP coursework at Imperial College London, achieved high score of 93 out of 100.
 
 ## Project Objective
 Our primary aim is to improve upon the baseline with an F1 score higher than 0.48 using various models, data pre-processing, augmentation strategies, and hyperparameter tuning techniques. This project focuses on deploying machine learning models like BoW, TF-IDF, RoBERTa, and DeBERTa.
